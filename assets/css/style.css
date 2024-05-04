@@ -673,12 +673,12 @@
     margin-top: 20px;
     text-align: left;
     margin-left: 20px;
+    
 }
 
 .current-price{
     font-size: 20px;
     color: fuchsia;
-    margin-top: 20px;
 }
 
 .previous-price {
@@ -888,6 +888,124 @@
 
 
 
+#simple-pricing{
+    width: 100%;
+    background-color: white ;
+ }
+
+ .simple-up{
+    margin-top: 200px;
+    margin-left: 40%;
+ }
+
+.pricing-simple .simp{
+   margin-left: 100px;
+   font-size: 40px;
+
+}
+
+
+.pricing-simple span{
+    position: relative;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+
+.pricing-simple span img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animas 2s linear infinite;
+}
+
+@keyframes animas {
+    0% {
+        transform: translateX(-50%) scaleX(0);
+    }
+    50% {
+        transform: translateX(-50%) scaleX(1);
+    }
+    100% {
+        transform: translateX(-50%) scaleX(0);
+    }
+}
+
+
+
+.simple-up .contract{
+    margin-left: 80px;
+}
+
+.simple-up .button-2{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.simple-up .button-2 button{
+    border: 0.5px solid gray;
+}
+
+
+.packets .paket-gold{
+    width: 90%;
+    height: 400px;
+    background-color: #f3f4f8;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.paket-gold .gold{
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+
+.paket-gold .perfect{
+    margin-left: 50px;
+}
+
+.paket-gold .pricsa{
+margin-left: 50px;
+}
+
+
+
+.paket-gold .pricsa .price{
+font-size: 50px;
+}
+
+.okeys{
+    margin-left: 50px;
+}
+
+.okeys ul{
+    list-style: none;
+}
+
+.okeys ul li{
+    margin-top: 5px;
+}
+
+.okeys ul li i{
+    color: greenyellow;
+}
+.okeys ul li:hover{
+    color: green;
+}
+
+.okeys ul li i:hover{
+    background-color: rgb(26, 221, 26);
+}
+
+
+.started{
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
 
 
 
@@ -895,4 +1013,69 @@
 
 
 
+.packets .paket-diamond{
+    width: 90%;
+    height: 430px;
+    background-color:  #f3f4f8;;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
 
+.paket-diamond .gold{
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+
+.paket-diamond .perfect{
+    margin-left: 50px;
+}
+
+.paket-diamond .pricsa{
+margin-left: 50px;
+}
+
+
+
+.paket-diamond .pricsa .price{
+font-size: 50px;
+}
+
+.okeys{
+    margin-left: 50px;
+}
+
+.okeys ul{
+    list-style: none;
+}
+
+.okeys ul li{
+    margin-top: 5px;
+}
+
+.okeys ul li i{
+    color: greenyellow;
+}
+.okeys ul li:hover{
+    color: green;
+}
+
+.okeys ul li i:hover{
+    background-color: rgb(26, 221, 26);
+}
+
+
+.buttoned{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.buttoned:hover{
+    color: rgb(202, 202, 215);
+    background-color: blue;
+}
