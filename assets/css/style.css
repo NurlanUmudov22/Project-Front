@@ -1,0 +1,307 @@
+#header{
+    width: 100vh;
+    height: 70px;
+    /* display: sticky; */
+    /* position:fixed; top:0px; left:0px; right:0px; 
+    height:70px; background:rgb(0, 0, 0) */
+
+}
+
+
+#header  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.left-nav{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.left-nav .logo{
+    margin-left: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.left-nav .category{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin-left: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.navbar .left-nav .category:hover{
+  color:blue
+}  
+
+.left-nav .category i{
+    margin-right: 10px;
+}
+  
+/* .category .submenu{
+
+    list-style: none;
+}
+
+.submenu .li :hover{
+} */
+
+/* .row{
+    margin-top: 10px;
+} */
+
+
+.center-navbar{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: -250px;
+    margin-top: -50px;
+    
+}
+
+
+.center-navbar .tab{
+    display: flex;
+    margin-left: 500px;
+}
+
+.col-4 .center-navbar .tab ul{
+    display: flex;
+    list-style: none;
+    margin-left: 420px;
+    margin-top: 10px;
+}
+
+.center-navbar .tab ul li{
+    margin-left: 20px;
+    color: black;
+    text-decoration: solid;
+    cursor: pointer;
+}
+.center-navbar .tab ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.center-navbar .tab ul li a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: right;
+}
+
+.right-nav .search{
+    margin-right: 30px;
+    margin-top: -50px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+.right-nav .search input{
+    width: 200px;
+    height: 48px;
+    position: absolute;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+
+}
+
+
+.sear{
+    border: none;
+    position: relative;
+    background: none;
+    margin-top: 13px;
+    margin-left: 3px;
+    opacity: 0.5;
+}
+
+.basket{
+    border: none;
+    position: relative;
+    background: none;
+     opacity: 0.5;
+     display: block;
+     margin-top: -26px;
+     margin-left: 120px;
+
+}
+
+.free{
+    cursor: pointer;
+    margin-right: 90px;
+    margin-top: -45px; 
+}
+
+
+
+
+/*////////// section-tutorial */
+
+/*left-section */
+
+#tutorial{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(128, 128, 128, 0.26);
+    
+}
+
+#tutorial .left-section .animation-hero img{
+    margin-left: 90px;
+    margin-top: 150px;
+    animation-name:  rotate ;
+    animation-duration: 10s   ;
+    animation-delay: 0s ;
+    animation: rotate 10s linear infinite;
+
+}
+
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(280deg);}
+    100%{transform: rotate(30deg);}
+}
+
+#tutorial .left-section .aqua-circle img{
+    margin-top: 200px;
+}
+
+#tutorial .left-section .access{
+    margin-left: 80px;
+   margin-top: -330px;
+}
+
+#tutorial .left-section .online{
+    margin-left: 80px;
+
+}
+
+#tutorial .left-section .online .onl-img{
+   
+}
+
+
+#tutorial .left-section .online .onl-img span{
+    position: relative;
+    margin-top: 5px;
+    font-size: 50px;
+}
+
+
+#tutorial .left-section .online .onl-img span img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animas 2s linear infinite;
+}
+
+@keyframes animas {
+    0% {
+        transform: translateX(-50%) scaleX(0);
+    }
+    50% {
+        transform: translateX(-50%) scaleX(1);
+    }
+    100% {
+        transform: translateX(-50%) scaleX(0);
+    }
+}
+
+
+#tutorial .left-section .online .view button{
+    width: 200px;
+    height: 45px;
+    margin-top: 19px;
+}
+
+ 
+#tutorial .left-section .hero1-dot{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 90px;
+}
+
+#tutorial .left-section  .hero1-dot img{
+    position: absolute;
+    animation: fotos 10s linear infinite;
+}
+
+@keyframes fotos {
+    0%, 100% {
+        transform: translate(-50%, -50%) translateY(0); /* Orta pozisyon */
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-50px); /* Yukarı doğru hareket */
+    }
+    75%, 75% {
+        transform: translate(-50%, -50%) translateY(50px); /* Aşağı doğru hareket */
+    }
+}
+
+
+
+/* right-section */
+
+#tutorial .right-section{
+    position: relative;
+}
+
+
+
+#tutorial .right-section  .circlefio{
+ position: relative;
+ display: flex;
+ margin-left: 75%;
+ margin-top: -400px;
+}
+
+#tutorial .right-section  .circle-pink{
+    position: relative;
+    margin-left: 65%;
+    margin-top: 40px;
+}
+
+
+#tutorial .right-section .dots{
+    position: relative;
+    margin-left: 95%;
+    margin-top: -300px;
+}
+
+
+#tutorial .right-section .shekil1 img{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -300px;
+    border-radius: 20px 3px 20px 3px; 
+}
+
+
+
+#tutorial .right-section .sekil2 img{
+    position: absolute;
+    margin-left: 81.7%;
+    margin-top: -250px;
+    border-radius: 2px 23px 2px 23px; 
+}
+
