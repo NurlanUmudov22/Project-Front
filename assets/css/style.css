@@ -895,7 +895,7 @@
 
  .simple-up{
     margin-top: 200px;
-    margin-left: 40%;
+    margin-left: 35.5%;
  }
 
 .pricing-simple .simp{
@@ -1078,4 +1078,152 @@ font-size: 50px;
 .buttoned:hover{
     color: rgb(202, 202, 215);
     background-color: blue;
+}
+
+
+
+
+
+
+
+/* up-footet */
+
+#up-footer .guiding-pankart{
+    margin-top: 200px;
+       margin-left: 120px;
+        width: 1000px;
+        height: 150px;
+        background: linear-gradient(to right, #240ab6 50%, #f77a1a 50%);
+        border-radius: 20px; 
+        padding: 20px;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        z-index: 2;
+}
+
+#up-footer .guiding-pankart .get{
+    width: 180px;
+    height: 60px;
+   margin-left: 700px;
+   margin-top: -55px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+.col-3{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+
+}
+
+.area-footer{
+    margin-top: -20px;
+    width: 100%;
+    background-color: #100741;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.area-footer .first-col .educal-icon{
+   cursor: pointer;
+}
+
+.area-footer .first-col .texts{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.area-footer .first-col .icons-social{
+    margin-top: 30px;
+}
+
+.area-footer .first-col .icons-social i:hover{
+    color: #3aa4de;
+}
+
+.second-col .comp{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.second-col .ul-datas ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.second-col .ul-datas ul li:hover{
+    color:rgb(104, 127, 148)
+}
+
+
+
+
+.thirts-col .platform{
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.thirts-col .ul-datas2 ul li{
+    margin-left: -29px;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.thirts-col .ul-datas2 ul li:hover{
+    color:rgb(104, 127, 148)
+}
+
+
+
+
+.last-col .subsc{
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.last-col{
+    margin-left: 850px;
+    margin-top: -280px;
+}
+
+.last-col .input-group{
+    width: 200px;
+}
+
+.last-col .input-group span{
+cursor: pointer;
+}
+
+
+.last-col .input-group span:hover{
+ color: blue;
+}
+
+
+
+
+.last-col .inbox{
+    margin-top: 10px;
+    width: 200px;
+}
+
+hr{
+    color:gray;
+}
+
+.finish{
+    display: flex;
+    justify-content: center ;
+    color: antiquewhite;
 }
