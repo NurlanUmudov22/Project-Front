@@ -411,6 +411,8 @@
     margin-left: 50px;
     margin-top: -220px;
     position: absolute;
+    color: white;
+
 
 }
 
@@ -465,6 +467,7 @@
     margin-left: 50px;
     margin-top: -220px;
     position: absolute;
+    color: white;
 
 }
 
@@ -490,3 +493,215 @@
     position: absolute;
     box-shadow: 0px 0px 20px 0px rgb(21, 21, 230);
 }
+
+
+/* offers-section*/
+ 
+ #offers{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.089);
+ }
+
+ .of-exp{
+    margin-left: 100px;
+    margin-top: 200px;
+ }
+
+/* .online{
+    margin-top: 100px;
+} */
+
+.online span{
+    position: relative;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+
+.online span img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animas 2s linear infinite;
+}
+
+@keyframes animas {
+    0% {
+        transform: translateX(-50%) scaleX(0);
+    }
+    50% {
+        transform: translateX(-50%) scaleX(1);
+    }
+    100% {
+        transform: translateX(-50%) scaleX(0);
+    }
+}
+
+.help{
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.right-up:hover{
+    color: blue;
+}
+
+
+.tabs{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.tabs ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.tabs ul li{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.tabs .first{
+    color:blue
+}
+
+
+.tabs ul li:hover{
+    color: blue;
+}
+
+/* karts */ 
+
+
+.course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.course-card .name-kurs{
+    width: 100px;
+    height: 20px;
+    background-color: fuchsia;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.course-card .name-kurs span{
+    display: flex;
+    color: white;
+    position: absolute;
+    margin-top: -3px;
+}
+
+.course-card .kurs-foto{
+        width: 320px;
+}
+
+.course-card .kurs-foto img{
+    padding: -8%;
+    margin-right: 80px;
+}
+
+.course-card .kurs-foto img:hover{
+    padding: 3%;
+}
+
+.book-datas{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.lesson-count {
+    font-size: 14px;
+    margin-left: 9px;
+}
+
+.book-datas .stars{
+    background-color: rgb(255, 255, 55)   ;
+    margin-left: 150px;
+}
+
+
+
+
+.course-info .strategy-text {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.course-info .strategy-text:hover{
+    color:blue
+}
+
+.course-info img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.course-info .teacher-name{
+    margin-left: 90px;
+    margin-top: -40px;
+    cursor: pointer;
+
+}
+.course-info .teacher-name:hover{
+    color:blue
+}
+
+
+.price-info {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.current-price{
+    font-size: 20px;
+    color: fuchsia;
+    margin-top: 20px;
+}
+
+.previous-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.details {
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.details:hover{
+    color:blue;
+}
+
+.offer-area{
+    background-color: rgba(92, 31, 31, 0.089);
+    
+}
+
+
+/* cuurrrent events */
+
