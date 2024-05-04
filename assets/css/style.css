@@ -107,7 +107,8 @@
 .right-nav .search{
     margin-right: 30px;
     margin-top: -50px;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-color: rgba(225, 225, 225, 0.619);
 }
 
 
@@ -119,9 +120,14 @@
     margin-left: 50px;
     border: none;
     outline: none;
+    background-color: rgba(143, 142, 142, 0);
+
 
 }
-
+/* 
+.right-nav .sear:hover{
+    color: blue;
+} */
 
 .sear{
     border: none;
@@ -194,9 +200,6 @@
 
 }
 
-#tutorial .left-section .online .onl-img{
-   
-}
 
 
 #tutorial .left-section .online .onl-img span{
@@ -272,7 +275,7 @@
  position: relative;
  display: flex;
  margin-left: 75%;
- margin-top: -400px;
+ margin-top: -420px;
 }
 
 #tutorial .right-section  .circle-pink{
@@ -305,3 +308,185 @@
     border-radius: 2px 23px 2px 23px; 
 }
 
+
+
+/* explore  */
+
+/* up/ popular */
+
+#explore .up-exp{
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.popular span{
+    position: relative;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+
+.popular span img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animas 2s linear infinite;
+}
+
+@keyframes animas {
+    0% {
+        transform: translateX(-50%) scaleX(0);
+    }
+    50% {
+        transform: translateX(-50%) scaleX(1);
+    }
+    100% {
+        transform: translateX(-50%) scaleX(0);
+    }
+}
+
+.right-up{
+    display: flex;
+    justify-content: end;
+    margin-right: 75px;
+    margin-top: -50px;
+    cursor: pointer;
+    color: black;
+}
+
+.right-up:hover{
+    color: blue;
+}
+
+.left-courses .data-science .categorydata{
+    display: flex;
+    width: 350px;
+    height: 80px;
+    margin-top: 40px;
+    border: 0.5px solid gray;
+    border-radius: 3px;
+}
+
+.left-courses .data-science .categorydata:hover{
+    background-color: blue;
+    color: white;
+}
+
+.data-science .data-sci img{
+    margin-top: -20x;
+    margin-left: 20px;
+}
+
+.data-science .categorydata .data-sci .datas{
+  margin-left: 120px;
+  margin-top: -40px;
+}
+
+
+
+.left-banner .back{
+    width: 90%;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.left-banner .back img{
+    border-radius: 7px;
+}
+
+.left-banner .banner1{
+    margin-top: -220px;
+    margin-left: 230px;
+    position: absolute;
+
+}
+
+.left-banner .write-free{
+    background-color: rgba(218, 30, 61, 0.799);
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: -220px;
+    position: absolute;
+
+}
+
+.left-banner .write-free span{
+   margin-left: 8px;
+}
+
+.left-banner .germany{
+    margin-top: -180px;
+    margin-left: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.left-banner .germany:hover{
+ color: blue;
+}
+
+
+.button-banner1{
+    margin-top: -100px;
+    margin-left: 50px;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px rgb(21, 21, 230);
+}
+
+
+
+.right-banner .back{
+    width: 95%;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.right-banner .back img{
+    border-radius: 7px;
+}
+
+.right-banner .banner1{
+    margin-top: -220px;
+    margin-left: 230px;
+    position: absolute;
+
+}
+
+.right-banner .write-free{
+    background-color: rgba(218, 30, 61, 0.799);
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: -220px;
+    position: absolute;
+
+}
+
+.right-banner .write-free span{
+   margin-left: 8px;
+}
+
+.right-banner .germany{
+    margin-top: -180px;
+    margin-left: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.right-banner .germany:hover{
+    color: blue;
+}
+
+
+.button-banner1{
+    margin-top: -100px;
+    margin-left: 50px;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px rgb(21, 21, 230);
+}
