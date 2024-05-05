@@ -1,0 +1,486 @@
+#header{
+    width: 100%;
+    height: 70px;
+    /* display: sticky; */
+    /* position:fixed; top:0px; left:0px; right:0px; 
+    height:70px; background:rgb(0, 0, 0) */
+
+}
+
+
+#header  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.left-nav{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.left-nav .logo{
+    /* margin-left: 30px; */
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.left-nav .category{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin-left: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.navbar .left-nav .category:hover{
+  color:blue
+}  
+
+.left-nav .category i{
+    margin-right: 10px;
+}
+  
+
+
+
+.center-navbar{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 25px;  
+}
+
+
+.col-4 .center-navbar .tab ul{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    margin-left: -29px;
+}
+
+.center-navbar .tab ul li{
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+}
+.center-navbar .tab ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.center-navbar .tab ul li a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.right-nav{
+    display: flex;
+    margin-left: 60px;
+    border: 0.5px solid gray;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.right-nav .search{
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-color: rgba(225, 225, 225, 0.619);
+    margin-left: px;
+    margin-top: -10px;
+}
+
+
+
+
+.right-nav .search input{
+    width: 150px;
+    height: 38px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(143, 142, 142, 0);
+
+
+}
+
+.sear{
+    border: none;
+    position: relative;
+    background: none;
+    margin-top: 20px;
+    margin-left: 3px;
+    opacity: 0.5;
+}
+
+
+.basket{
+    border: none;
+    position: relative;
+    background: none;
+     opacity: 0.5;
+     display: block;
+     margin-top: -25px;
+     margin-left: 110px;
+
+}
+
+.free{
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    margin-top: -33px; 
+    margin-left: 260px;
+}
+
+.right-nav .free button{
+}
+
+
+
+
+
+
+
+
+/*   section1 page  //////////////////////////////////////////*/
+
+
+#page-up .area-page .pageground{
+    filter: brightness(0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.area-page .cour{
+    margin-top: -200px;
+    margin-left: 200px;
+    position: absolute  ;
+    z-index: 2;
+    color: white;
+}
+
+
+.area-page .cour h1{
+ font-size: 50px;
+}
+
+
+
+.area-page .ulli{
+    margin-top: -140px;
+    margin-left: 170px;
+    position: absolute  ;
+    z-index: 2;
+    color: white;
+}
+
+.area-page .ulli ul {
+    display: flex;
+    color: white;
+    list-style: none;
+
+
+}
+
+
+.area-page .ulli ul li{
+color: white;
+margin-left: 10px;
+
+
+}
+
+.area-page .ulli ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#offers .pagination1{
+    width: 80%;
+    height: 50px;
+    background-color:#edeef3;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+#offers .pagination1 .left-position{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+#offers .pagination1 .left-icons i{
+    color: blue;
+    cursor: pointer;
+    display: flex;
+    margin-top: 16px;
+}
+
+
+#offers .pagination1 .second-icon i{
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+
+#offers .pagination1 .showing {
+    margin-left: 19px;
+    margin-top: 14px;
+}
+
+
+
+
+#offers .pagination1 .right-icons{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 880px;
+    margin-top: -25px;
+
+}
+#offers .pagination1 .right-icons span{
+    cursor: pointer;
+}
+
+#offers .pagination1 .right-icons i{
+ margin-left: 9px;
+}
+
+
+
+
+.current{
+    margin-top: 150px;
+    display: flex;
+    margin-left: 80px;
+}
+
+.found{
+    display: flex;
+    margin-left: 80px;
+
+}
+
+.current span{
+    position: relative;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+
+.current span img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animas 2s linear infinite;
+}
+
+@keyframes animas {
+    0% {
+        transform: translateX(-50%) scaleX(0);
+    }
+    50% {
+        transform: translateX(-50%) scaleX(1);
+    }
+    100% {
+        transform: translateX(-50%) scaleX(0);
+    }
+}
+
+
+
+
+
+.input-group {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 5px solid;
+}
+
+#email{
+    margin-left: 300px;
+    margin-top: -70px;
+}
+
+
+.input {
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f3f4f8;
+
+}
+
+.input:hover{
+ border-color: blue;
+}
+
+
+.large-input {
+    width: 620px;
+}
+
+.large-textarea {
+    width: 620px;
+    height: 150px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+/*   /////// */
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.agree-checkbox {
+    display: none; /* Checkmark'ı gizlemek için */
+}
+
+.checkmark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: relative;
+    top: 5px; /* Metin ile hizalamak için */
+    margin-right: 10px;
+}
+
+.agree-checkbox:checked + label .checkmark::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 6px;
+    height: 10px;
+    border: solid #007bff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+label {
+    font-size: 16px;
+}
+
+.agree-checkbox:checked + label {
+    color: #007bff; /* Checkbox işaretlendiğinde metnin rengini değiştir */
+}
+
+
+
+
+
+
+
+
+/* rightfollow */
+
+.right-posit{
+    display: flex;
+}
+
+
+.right-posit .img1 img{
+    margin-top: 290px;
+    margin-left: -40px;
+    position: relative;
+}
+
+
+
+.right-posit .img2 img{
+   margin-left: 210px;
+    position: relative;
+    margin-top: -20px;
+}
+
+
+
+.right-posit .img3 img{
+    margin-top: 200px;
+    position: relative;
+    margin-left: -40px;
+ }
+
+
+
+
+.card-follow{
+    width: 320px;
+    height: 500px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -450px;
+    background-color: white;
+}
+
+
+.card-follow .first-follow{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.first-follow .icon i{
+    margin-left: -13px;
+}
+
+.first-follow .infos{
+    margin-left: 15px;
+}
+
+
+
+.first-follow .infos span:hover{
+ color:blue;
+ cursor: pointer;
+}
+
+
+.icons{
+    margin-top: 30px;
+    margin-left: -90px;
+    cursor: pointer;
+}
+
+
