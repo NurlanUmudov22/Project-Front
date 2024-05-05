@@ -1,4 +1,4 @@
-#header{
+#header {
     width: 100%;
     height: 70px;
     /* display: sticky; */
@@ -8,7 +8,7 @@
 }
 
 
-#header  .navbar{
+#header .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,70 +18,71 @@
 
 
 
-.left-nav{
+.left-nav {
     display: flex;
     justify-content: center;
     cursor: pointer;
 
 }
 
-.left-nav .logo{
+.left-nav .logo {
     /* margin-left: 30px; */
     margin-top: 25px;
     cursor: pointer;
 }
 
-.left-nav .category{
+.left-nav .category {
     display: flex;
     justify-content: center;
-    align-items:baseline;
+    align-items: baseline;
     margin-left: 40px;
     margin-top: 30px;
     cursor: pointer;
 }
 
-.navbar .left-nav .category:hover{
-  color:blue
-}  
+.navbar .left-nav .category:hover {
+    color: blue
+}
 
-.left-nav .category i{
+.left-nav .category i {
     margin-right: 10px;
 }
-  
 
 
 
-.center-navbar{
+
+.center-navbar {
     display: flex;
     justify-content: center;
     align-self: center;
-    margin-top: 25px;  
+    margin-top: 25px;
 }
 
 
-.col-4 .center-navbar .tab ul{
+.col-4 .center-navbar .tab ul {
     display: flex;
     list-style: none;
     margin-top: 5px;
     margin-left: -29px;
 }
 
-.center-navbar .tab ul li{
+.center-navbar .tab ul li {
     margin-left: 20px;
     color: black;
     cursor: pointer;
 }
-.center-navbar .tab ul li a{
+
+.center-navbar .tab ul li a {
     text-decoration: none;
     color: black;
 }
 
-.center-navbar .tab ul li a:hover{
+.center-navbar .tab ul li a:hover {
     text-decoration: none;
     color: blue;
 }
 
-.right-nav{
+.right-nav {
     display: flex;
     margin-left: 60px;
     border: 0.5px solid gray;
@@ -90,7 +91,7 @@
     margin-top: 20px;
 }
 
-.right-nav .search{
+.right-nav .search {
     /* border: 1px solid rgb(0, 0, 0); */
     background-color: rgba(225, 225, 225, 0.619);
     margin-left: px;
@@ -100,7 +101,7 @@
 
 
 
-.right-nav .search input{
+.right-nav .search input {
     width: 150px;
     height: 38px;
     position: absolute;
@@ -113,7 +114,7 @@
 
 }
 
-.sear{
+.sear {
     border: none;
     position: relative;
     background: none;
@@ -123,27 +124,26 @@
 }
 
 
-.basket{
+.basket {
     border: none;
     position: relative;
     background: none;
-     opacity: 0.5;
-     display: block;
-     margin-top: -25px;
-     margin-left: 110px;
+    opacity: 0.5;
+    display: block;
+    margin-top: -25px;
+    margin-left: 110px;
 
 }
 
-.free{
+.free {
     cursor: pointer;
     display: block;
     width: 200px;
-    margin-top: -33px; 
+    margin-top: -33px;
     margin-left: 260px;
 }
 
-.right-nav .free button{
-}
+.right-nav .free button {}
 
 
 
@@ -155,31 +155,31 @@
 /*   section1 page  //////////////////////////////////////////*/
 
 
-#page-up .area-page .pageground{
+#page-up .area-page .pageground {
     filter: brightness(0.5);
     position: relative;
     z-index: 1;
 }
 
-.area-page .cour{
+.area-page .cour {
     margin-top: -200px;
     margin-left: 200px;
-    position: absolute  ;
+    position: absolute;
     z-index: 2;
     color: white;
 }
 
 
-.area-page .cour h1{
- font-size: 50px;
+.area-page .cour h1 {
+    font-size: 50px;
 }
 
 
 
-.area-page .ulli{
+.area-page .ulli {
     margin-top: -140px;
     margin-left: 170px;
-    position: absolute  ;
+    position: absolute;
     z-index: 2;
     color: white;
 }
@@ -193,24 +193,24 @@
 }
 
 
-.area-page .ulli ul li{
-color: white;
-margin-left: 10px;
+.area-page .ulli ul li {
+    color: white;
+    margin-left: 10px;
 
 
 }
 
-.area-page .ulli ul li a{
+.area-page .ulli ul li a {
     text-decoration: none;
     color: white;
 }
 
 
 
-#offers .pagination1{
+#offers .pagination1 {
     width: 80%;
     height: 50px;
-    background-color:#edeef3;
+    background-color: #edeef3;
     justify-content: center;
     align-items: center;
     margin-left: 120px;
@@ -218,14 +218,14 @@ margin-left: 10px;
     border-radius: 10px;
 }
 
-#offers .pagination1 .left-position{
+#offers .pagination1 .left-position {
     display: flex;
     margin-left: 10px;
 }
 
 
 
-#offers .pagination1 .left-icons i{
+#offers .pagination1 .left-icons i {
     color: blue;
     cursor: pointer;
     display: flex;
@@ -233,7 +233,7 @@ margin-left: 10px;
 }
 
 
-#offers .pagination1 .second-icon i{
+#offers .pagination1 .second-icon i {
     color: blue;
     cursor: pointer;
     margin-left: 10px;
@@ -249,7 +249,7 @@ margin-left: 10px;
 
 
 
-#offers .pagination1 .right-icons{
+#offers .pagination1 .right-icons {
     width: 120px;
     height: 30px;
     background-color: white;
@@ -261,37 +261,38 @@ margin-left: 10px;
     margin-top: -25px;
 
 }
-#offers .pagination1 .right-icons span{
+
+#offers .pagination1 .right-icons span {
     cursor: pointer;
 }
 
-#offers .pagination1 .right-icons i{
- margin-left: 9px;
+#offers .pagination1 .right-icons i {
+    margin-left: 9px;
 }
 
 
 
 
-.current{
+.current {
     margin-top: 150px;
     display: flex;
     margin-left: 80px;
 }
 
-.found{
+.found {
     display: flex;
     margin-left: 80px;
 
 }
 
-.current span{
+.current span {
     position: relative;
     margin-top: 5px;
     font-size: 30px;
 }
 
 
-.current span img{
+.current span img {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -303,9 +304,11 @@ margin-left: 10px;
     0% {
         transform: translateX(-50%) scaleX(0);
     }
+
     50% {
         transform: translateX(-50%) scaleX(1);
     }
+
     100% {
         transform: translateX(-50%) scaleX(0);
     }
@@ -321,7 +324,7 @@ margin-left: 10px;
     border-radius: 5px solid;
 }
 
-#email{
+#email {
     margin-left: 300px;
     margin-top: -70px;
 }
@@ -339,8 +342,8 @@ margin-left: 10px;
 
 }
 
-.input:hover{
- border-color: blue;
+.input:hover {
+    border-color: blue;
 }
 
 
@@ -370,7 +373,8 @@ label {
 }
 
 .agree-checkbox {
-    display: none; /* Checkmark'ı gizlemek için */
+    display: none;
+    /* Checkmark'ı gizlemek için */
 }
 
 .checkmark {
@@ -381,11 +385,12 @@ label {
     border: 1px solid #ccc;
     border-radius: 3px;
     position: relative;
-    top: 5px; /* Metin ile hizalamak için */
+    top: 5px;
+    /* Metin ile hizalamak için */
     margin-right: 10px;
 }
 
-.agree-checkbox:checked + label .checkmark::after {
+.agree-checkbox:checked+label .checkmark::after {
     content: "";
     position: absolute;
     top: 2px;
@@ -401,8 +406,9 @@ label {
     font-size: 16px;
 }
 
-.agree-checkbox:checked + label {
-    color: #007bff; /* Checkbox işaretlendiğinde metnin rengini değiştir */
+.agree-checkbox:checked+label {
+    color: #007bff;
+    /* Checkbox işaretlendiğinde metnin rengini değiştir */
 }
 
 
@@ -414,12 +420,12 @@ label {
 
 /* rightfollow */
 
-.right-posit{
+.right-posit {
     display: flex;
 }
 
 
-.right-posit .img1 img{
+.right-posit .img1 img {
     margin-top: 290px;
     margin-left: -40px;
     position: relative;
@@ -427,24 +433,24 @@ label {
 
 
 
-.right-posit .img2 img{
-   margin-left: 210px;
+.right-posit .img2 img {
+    margin-left: 210px;
     position: relative;
     margin-top: -20px;
 }
 
 
 
-.right-posit .img3 img{
+.right-posit .img3 img {
     margin-top: 200px;
     position: relative;
     margin-left: -40px;
- }
+}
 
 
 
 
-.card-follow{
+.card-follow {
     width: 320px;
     height: 500px;
     border: 0.5px solid gray;
@@ -455,32 +461,252 @@ label {
 }
 
 
-.card-follow .first-follow{
+.card-follow .first-follow {
     display: flex;
     margin-top: 50px;
     margin-left: 30px;
 }
 
-.first-follow .icon i{
+.first-follow .icon i {
     margin-left: -13px;
 }
 
-.first-follow .infos{
+.first-follow .infos {
     margin-left: 15px;
 }
 
 
 
-.first-follow .infos span:hover{
- color:blue;
- cursor: pointer;
+.first-follow .infos span:hover {
+    color: blue;
+    cursor: pointer;
 }
 
 
-.icons{
+.icons {
     margin-top: 30px;
     margin-left: -90px;
     cursor: pointer;
 }
 
 
+
+
+
+/* last section support */
+
+
+
+#last-datas .area-datas {
+    margin-top: 100px;
+    background: #edeef3;
+    position: relative;
+    height: 500px;
+}
+
+#last-datas .area-datas .back-img1 img {
+    margin-left: 900px;
+    margin-top: 450px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#last-datas .area-datas .back-img2 img {
+
+    margin-top: 130px;
+    position: absolute;
+}
+
+
+
+
+#last-datas .area-datas .right-kart{
+ width: 400px;
+ height: 400px;  
+ background: white;
+ border-radius: 10px;
+ margin-left: 50px;
+ margin-top: 50px;
+ position: absolute;
+}   
+    
+
+
+#last-datas .area-datas .right-kart .smile{
+    display: flex;
+justify-content: center;
+}
+
+
+#last-datas .area-datas .right-kart .smile i{
+    margin-top: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+
+#last-datas .area-datas .right-kart .name,.text-name, .but-agr{
+    display: flex;
+    justify-content: center;
+}
+
+.but-agr{
+    margin-top: 20px;
+}
+
+
+/**/
+
+
+#last-datas .area-datas .left-kart{
+    width: 400px;
+    height: 400px;  
+    background: white;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    position: absolute;
+   }   
+       
+   
+   
+   #last-datas .area-datas .left-kart .smile{
+       display: flex;
+   justify-content: center;
+   }
+   
+   
+   #last-datas .area-datas .left-kart .smile i{
+       margin-top: 100px;
+       width: 50px;
+       height: 50px;
+   }
+   
+   
+   #last-datas .area-datas .left-kart .name,.text-name, .but-agr{
+       display: flex;
+       justify-content: center;
+   }
+   
+   .but-agr{
+       margin-top: 20px;
+   }
+   
+   
+
+
+   /*footer */
+
+
+   
+.col-3{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+
+}
+
+.area-footer{
+    width: 100%;
+    background-color: #100741;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.area-footer .first-col .educal-icon{
+   cursor: pointer;
+}
+
+.area-footer .first-col .texts{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.area-footer .first-col .icons-social{
+    margin-top: 30px;
+}
+
+.area-footer .first-col .icons-social i:hover{
+    color: #3aa4de;
+}
+
+.second-col .comp{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.second-col .ul-datas ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.second-col .ul-datas ul li:hover{
+    color:rgb(104, 127, 148)
+}
+
+
+
+
+.thirts-col .platform{
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.thirts-col .ul-datas2 ul li{
+    margin-left: -29px;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.thirts-col .ul-datas2 ul li:hover{
+    color:rgb(104, 127, 148)
+}
+
+
+
+
+.last-col .subsc{
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.last-col{
+    margin-left: 850px;
+    margin-top: -280px;
+}
+
+.last-col .input-group{
+    width: 200px;
+}
+
+.last-col .input-group span{
+cursor: pointer;
+}
+
+
+.last-col .input-group span:hover{
+ color: blue;
+}
+
+
+
+
+.last-col .inbox{
+    margin-top: 10px;
+    width: 200px;
+}
+
+hr{
+    color:gray;
+}
+
+.finish{
+    display: flex;
+    justify-content: center ;
+    color: antiquewhite;
+}
