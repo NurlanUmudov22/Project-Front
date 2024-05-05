@@ -1,5 +1,5 @@
 #header{
-    width: 100vh;
+    width: 100%;
     height: 70px;
     /* display: sticky; */
     /* position:fixed; top:0px; left:0px; right:0px; 
@@ -26,7 +26,7 @@
 }
 
 .left-nav .logo{
-    margin-left: 30px;
+    /* margin-left: 30px; */
     margin-top: 25px;
     cursor: pointer;
 }
@@ -36,7 +36,7 @@
     justify-content: center;
     align-items:baseline;
     margin-left: 40px;
-    margin-top: 25px;
+    margin-top: 30px;
     cursor: pointer;
 }
 
@@ -65,28 +65,20 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    margin-left: -250px;
-    margin-top: -50px;
-    
+    margin-top: 25px;  
 }
 
-
-.center-navbar .tab{
-    display: flex;
-    margin-left: 500px;
-}
 
 .col-4 .center-navbar .tab ul{
     display: flex;
     list-style: none;
-    margin-left: 420px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-left: -29px;
 }
 
 .center-navbar .tab ul li{
     margin-left: 20px;
     color: black;
-    text-decoration: solid;
     cursor: pointer;
 }
 .center-navbar .tab ul li a{
@@ -101,42 +93,45 @@
 
 .right-nav{
     display: flex;
-    justify-content: right;
+    margin-left: 60px;
+    border: 0.5px solid gray;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
 }
 
 .right-nav .search{
-    margin-right: 30px;
-    margin-top: -50px;
     /* border: 1px solid rgb(0, 0, 0); */
     background-color: rgba(225, 225, 225, 0.619);
+    margin-left: px;
+    margin-top: -10px;
 }
+
 
 
 
 .right-nav .search input{
-    width: 200px;
-    height: 48px;
+    width: 150px;
+    height: 38px;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-top: 15px;
     border: none;
     outline: none;
     background-color: rgba(143, 142, 142, 0);
 
 
 }
-/* 
-.right-nav .sear:hover{
-    color: blue;
-} */
 
 .sear{
     border: none;
     position: relative;
     background: none;
-    margin-top: 13px;
+    margin-top: 20px;
     margin-left: 3px;
     opacity: 0.5;
 }
+
 
 .basket{
     border: none;
@@ -144,15 +139,20 @@
     background: none;
      opacity: 0.5;
      display: block;
-     margin-top: -26px;
-     margin-left: 120px;
+     margin-top: -25px;
+     margin-left: 110px;
 
 }
 
 .free{
     cursor: pointer;
-    margin-right: 90px;
-    margin-top: -45px; 
+    display: block;
+    width: 200px;
+    margin-top: -33px; 
+    margin-left: 260px;
+}
+
+.right-nav .free button{
 }
 
 

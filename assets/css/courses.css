@@ -1,0 +1,629 @@
+#header{
+    width: 100%;
+    height: 70px;
+    /* display: sticky; */
+    /* position:fixed; top:0px; left:0px; right:0px; 
+    height:70px; background:rgb(0, 0, 0) */
+
+}
+
+
+#header  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.left-nav{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.left-nav .logo{
+    /* margin-left: 30px; */
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.left-nav .category{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin-left: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.navbar .left-nav .category:hover{
+  color:blue
+}  
+
+.left-nav .category i{
+    margin-right: 10px;
+}
+  
+
+
+
+.center-navbar{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 25px;  
+}
+
+
+.col-4 .center-navbar .tab ul{
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    margin-left: -29px;
+}
+
+.center-navbar .tab ul li{
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+}
+.center-navbar .tab ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.center-navbar .tab ul li a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.right-nav{
+    display: flex;
+    margin-left: 60px;
+    border: 0.5px solid gray;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.right-nav .search{
+    /* border: 1px solid rgb(0, 0, 0); */
+    background-color: rgba(225, 225, 225, 0.619);
+    margin-left: px;
+    margin-top: -10px;
+}
+
+
+
+
+.right-nav .search input{
+    width: 150px;
+    height: 38px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(143, 142, 142, 0);
+
+
+}
+
+.sear{
+    border: none;
+    position: relative;
+    background: none;
+    margin-top: 20px;
+    margin-left: 3px;
+    opacity: 0.5;
+}
+
+
+.basket{
+    border: none;
+    position: relative;
+    background: none;
+     opacity: 0.5;
+     display: block;
+     margin-top: -25px;
+     margin-left: 110px;
+
+}
+
+.free{
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    margin-top: -33px; 
+    margin-left: 260px;
+}
+
+.right-nav .free button{
+}
+
+
+
+
+
+
+
+
+/*   section1 page  //////////////////////////////////////////*/
+
+
+#page-up .area-page .pageground{
+    filter: brightness(0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.area-page .cour{
+    margin-top: -200px;
+    margin-left: 200px;
+    position: absolute  ;
+    z-index: 2;
+    color: white;
+}
+
+
+.area-page .cour h1{
+ font-size: 50px;
+}
+
+
+
+.area-page .ulli{
+    margin-top: -140px;
+    margin-left: 170px;
+    position: absolute  ;
+    z-index: 2;
+    color: white;
+}
+
+.area-page .ulli ul {
+    display: flex;
+    color: white;
+    list-style: none;
+
+
+}
+
+
+.area-page .ulli ul li{
+color: white;
+margin-left: 10px;
+
+
+}
+
+.area-page .ulli ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#offers .pagination1{
+    width: 80%;
+    height: 50px;
+    background-color:#edeef3;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+#offers .pagination1 .left-position{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+#offers .pagination1 .left-icons i{
+    color: blue;
+    cursor: pointer;
+    display: flex;
+    margin-top: 16px;
+}
+
+
+#offers .pagination1 .second-icon i{
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+
+#offers .pagination1 .showing {
+    margin-left: 19px;
+    margin-top: 14px;
+}
+
+
+
+
+#offers .pagination1 .right-icons{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 880px;
+    margin-top: -25px;
+
+}
+#offers .pagination1 .right-icons span{
+    cursor: pointer;
+}
+
+#offers .pagination1 .right-icons i{
+ margin-left: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* offers-section*/
+ 
+#offers{
+    width: 100%;
+ }
+
+
+
+/* karts */ 
+
+
+.course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.course-card .name-kurs{
+    width: 100px;
+    height: 20px;
+    background-color: fuchsia;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.course-card .name-kurs span{
+    display: flex;
+    color: white;
+    position: absolute;
+    margin-top: -3px;
+}
+
+.course-card .kurs-foto{
+        width: 320px;
+}
+
+.course-card .kurs-foto img{
+    padding: -8%;
+    margin-right: 80px;
+}
+
+.course-card .kurs-foto img:hover{
+    padding: 3%;
+}
+
+.book-datas{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.lesson-count {
+    font-size: 14px;
+    margin-left: 9px;
+}
+
+.book-datas .stars{
+    background-color: rgb(255, 255, 55)   ;
+    margin-left: 150px;
+}
+
+
+
+
+.course-info .strategy-text {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.course-info .strategy-text:hover{
+    color:blue
+}
+
+.course-info img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.course-info .teacher-name{
+    margin-left: 90px;
+    margin-top: -40px;
+    cursor: pointer;
+
+}
+.course-info .teacher-name:hover{
+    color:blue
+}
+
+
+.price-info {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+.current-price{
+    font-size: 20px;
+    color: fuchsia;
+}
+
+.previous-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.details {
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.details:hover{
+    color:blue;
+}
+
+.offer-area{
+    background-color: rgba(179, 174, 174, 0.089);
+    height: 1300px;
+}
+
+
+/*//////*/
+
+
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.page-number {
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.page-number.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.arrow-left, .arrow-right {
+    width: 50px;
+    height: 30px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    background-color: rgb(53, 79, 210);
+    color: white;
+}
+
+.page-number:hover {
+    background-color: rgb(37, 81, 212);
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 16px;
+    color: #333;
+}
+
+
+.fa-chevron-left:hover, .fa-chevron-right:hover {
+    color: blue;
+}
+
+
+
+.arrow-left i:hover, .arrow-left i:hover {
+    color: white;
+}
+
+
+
+
+
+/* up-footet */
+
+#up-footer .guiding-pankart{
+    margin-top: 200px;
+       margin-left: 120px;
+        width: 1000px;
+        height: 150px;
+        background: linear-gradient(to right, #240ab6 50%, #f77a1a 50%);
+        border-radius: 20px; 
+        padding: 20px;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        z-index: 2;
+}
+
+#up-footer .guiding-pankart .get{
+    width: 180px;
+    height: 60px;
+   margin-left: 700px;
+   margin-top: -55px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/* footer */
+
+.col-3{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+
+}
+
+.area-footer{
+    margin-top: -20px;
+    width: 100%;
+    background-color: #100741;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.area-footer .first-col .educal-icon{
+   cursor: pointer;
+}
+
+.area-footer .first-col .texts{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.area-footer .first-col .icons-social{
+    margin-top: 30px;
+}
+
+.area-footer .first-col .icons-social i:hover{
+    color: #3aa4de;
+}
+
+.second-col .comp{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.second-col .ul-datas ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.second-col .ul-datas ul li:hover{
+    color:rgb(104, 127, 148)
+}
+
+
+
+
+.thirts-col .platform{
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.thirts-col .ul-datas2 ul li{
+    margin-left: -29px;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.thirts-col .ul-datas2 ul li:hover{
+    color:rgb(104, 127, 148)
+}
+
+
+
+
+.last-col .subsc{
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.last-col{
+    margin-left: 850px;
+    margin-top: -280px;
+}
+
+.last-col .input-group{
+    width: 200px;
+}
+
+.last-col .input-group span{
+cursor: pointer;
+}
+
+
+.last-col .input-group span:hover{
+ color: blue;
+}
+
+
+
+
+.last-col .inbox{
+    margin-top: 10px;
+    width: 200px;
+}
+
+hr{
+    color:gray;
+}
+
+.finish{
+    display: flex;
+    justify-content: center ;
+    color: antiquewhite;
+}
