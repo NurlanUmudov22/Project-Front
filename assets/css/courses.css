@@ -1,21 +1,20 @@
-#header{
+header{
     width: 100%;
-    height: 70px;
-    /* display: sticky; */
-    /* position:fixed; top:0px; left:0px; right:0px; 
-    height:70px; background:rgb(0, 0, 0) */
-
+    position:fixed ;
+    background: white;
+    z-index: 99;
+    top: 0;
 }
 
-
-#header  .navbar{
+/* 
+header  .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
 }
-
+ */
 
 
 .left-nav{
@@ -310,7 +309,7 @@ margin-left: 10px;
     margin-top: 30px;
     overflow: hidden;
     background-color: white;
-    height: 480px;
+    height: 500px;
 
 }
 
@@ -325,8 +324,7 @@ margin-left: 10px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
-
-
+    z-index: 1;
 }
 
 .course-card .name-kurs span{
@@ -337,16 +335,22 @@ margin-left: 10px;
 }
 
 .course-card .kurs-foto{
-        width: 320px;
+        width: 100%;
+        overflow: hidden;
+
 }
 
 .course-card .kurs-foto img{
-    padding: -8%;
+    /* padding: -8%; */
     margin-right: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .course-card .kurs-foto img:hover{
-    padding: 3%;
+    /* padding: 3%; */
+    transform: scale(1.2);
+
 }
 
 .book-datas{
@@ -426,8 +430,7 @@ margin-left: 10px;
 }
 
 .offer-area{
-    background-color: rgba(179, 174, 174, 0.089);
-    height: 1300px;
+    height: 1400px;
 }
 
 
