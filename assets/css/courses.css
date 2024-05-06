@@ -81,6 +81,19 @@
     color: blue;
 }
 
+
+.center-navbar .tab ul li i{
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+
+.center-navbar .tab ul li i:hover{
+    color: blue;
+
+}
+
+
 .right-nav{
     display: flex;
     margin-left: 60px;
@@ -297,6 +310,8 @@ margin-left: 10px;
     margin-top: 30px;
     overflow: hidden;
     background-color: white;
+    height: 480px;
+
 }
 
 .course-card .name-kurs{
@@ -516,14 +531,14 @@ margin-left: 10px;
 /* footer */
 
 .col-3{
-    margin-top: 30px;
+    margin-top: 160px;
     margin-left: 40px;
     color: white;
 
 }
 
 .area-footer{
-    margin-top: -20px;
+    margin-top: -80px;
     width: 100%;
     background-color: #100741;
     position: absolute;
@@ -594,7 +609,7 @@ margin-left: 10px;
 
 .last-col{
     margin-left: 850px;
-    margin-top: -280px;
+    margin-top: -410px;
 }
 
 .last-col .input-group{

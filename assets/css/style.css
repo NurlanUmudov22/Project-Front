@@ -4,7 +4,7 @@
     /* display: sticky; */
     /* position:fixed; top:0px; left:0px; right:0px; 
     height:70px; background:rgb(0, 0, 0) */
-
+/* overflow: hidden; */
 }
 
 
@@ -77,10 +77,27 @@
 }
 
 .center-navbar .tab ul li{
+    display: flex;
     margin-left: 20px;
     color: black;
     cursor: pointer;
 }
+
+.center-navbar .tab ul li i{
+    margin-left: 2px;
+    margin-top: 5px;
+    /* overflow: hidden; */
+}
+
+
+.center-navbar .tab ul li i:hover{
+    color: blue;
+    /* overflow: hidden; */
+
+}
+
+
+
 .center-navbar .tab ul li a{
     text-decoration: none;
     color: black;
@@ -147,7 +164,7 @@
 .free{
     cursor: pointer;
     display: block;
-    width: 200px;
+    width: 140px;
     margin-top: -33px; 
     margin-left: 260px;
 }
@@ -251,13 +268,13 @@
 
 @keyframes fotos {
     0%, 100% {
-        transform: translate(-50%, -50%) translateY(0); /* Orta pozisyon */
+        transform: translate(-50%, -50%) translateY(0); 
     }
     50% {
-        transform: translate(-50%, -50%) translateY(-50px); /* Yukarı doğru hareket */
+        transform: translate(-50%, -50%) translateY(-50px);
     }
     75%, 75% {
-        transform: translate(-50%, -50%) translateY(50px); /* Aşağı doğru hareket */
+        transform: translate(-50%, -50%) translateY(50px); 
     }
 }
 
@@ -308,6 +325,36 @@
     border-radius: 2px 23px 2px 23px; 
 }
 
+#tutorial .right-section .spirit{
+    width: 230px;
+    height: 80px;
+    position: absolute;
+    background-color: white; margin-left: 80%;
+    border-radius: 4px;
+    animation: fotos 5s linear infinite;
+
+}
+
+
+#tutorial .right-section .spirit span{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+
+@keyframes fotos {
+    0% {
+        transform: translate(-50%, -50%) translateY(0); 
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-50px);
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(50px); 
+    }
+}
+
 
 
 /* explore  */
@@ -354,6 +401,9 @@
     cursor: pointer;
     color: black;
 }
+.right-up i{
+    margin-left: 5px;
+}
 
 .right-up:hover{
     color: blue;
@@ -361,33 +411,56 @@
 
 .left-courses .data-science .categorydata{
     display: flex;
-    width: 350px;
+    width: 320px;
     height: 80px;
     margin-top: 40px;
     border: 0.5px solid gray;
     border-radius: 3px;
+    /* overflow: hidden; */
+
 }
 
 .left-courses .data-science .categorydata:hover{
     background-color: blue;
     color: white;
+    /* overflow: hidden; */
+
 }
 
-.data-science .data-sci img{
-    margin-top: -20x;
-    margin-left: 20px;
+.data-science .data-sci svg{
+    margin-top: -10x;
+    margin-left: 25px;
+
 }
+
+.data-science .data-sci svg:hover{
+    filter: brightness(0) invert(1);
+    /* overflow: hidden; */
+}
+
 
 .data-science .categorydata .data-sci .datas{
-  margin-left: 120px;
+  margin-left: 100px;
   margin-top: -40px;
 }
 
 
 
+
+
+/* banner */
+.left-banner{
+    margin-left: -20px;
+}
+
+.right-banner{
+    margin-left: 20px;
+}
+
+
 .left-banner .back{
-    width: 90%;
     margin-top: 100px;
+    margin-right: 10px;
     position: relative;
 }
 
@@ -398,7 +471,7 @@
 
 .left-banner .banner1{
     margin-top: -220px;
-    margin-left: 230px;
+    margin-left: 220px;
     position: absolute;
 
 }
@@ -503,12 +576,12 @@
 
  .of-exp{
     margin-left: 100px;
-    margin-top: 200px;
+    margin-top: 220px;
  }
 
-/* .online{
-    margin-top: 100px;
-} */
+.online span{
+    /* margin-top: 50px; */
+}
 
 .online span{
     position: relative;
@@ -584,6 +657,7 @@
     margin-top: 30px;
     overflow: hidden;
     background-color: white;
+    height: 480px;
 }
 
 .course-card .name-kurs{
@@ -670,9 +744,11 @@
 
 
 .price-info {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: left;
     margin-left: 20px;
+    /* display: flex;
+    align-items: center; */
     
 }
 
@@ -680,6 +756,7 @@
     font-size: 20px;
     color: fuchsia;
 }
+
 
 .previous-price {
     text-decoration: line-through;
@@ -699,7 +776,7 @@
 
 .offer-area{
     background-color: rgba(179, 174, 174, 0.089);
-    height: 1300px;
+    height: 1450px;
 }
 
 
@@ -1116,14 +1193,14 @@ font-size: 50px;
 /* footer */
 
 .col-3{
-    margin-top: 30px;
+    margin-top: 180px;
     margin-left: 40px;
     color: white;
 
 }
 
 .area-footer{
-    margin-top: -20px;
+    margin-top: -80px;
     width: 100%;
     background-color: #100741;
     position: absolute;
@@ -1194,7 +1271,7 @@ font-size: 50px;
 
 .last-col{
     margin-left: 850px;
-    margin-top: -280px;
+    margin-top: -430px;
 }
 
 .last-col .input-group{

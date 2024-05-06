@@ -490,6 +490,16 @@ label {
 }
 
 
+.center-navbar .tab ul li i{
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+
+.center-navbar .tab ul li i:hover{
+    color: blue;
+
+}
 
 
 
