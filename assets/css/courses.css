@@ -560,13 +560,26 @@ margin-left: 10px;
 }
 
 
-.area-footer .first-col .icons-social{
-    margin-top: 30px;
+.area-footer .first-col .icons-social i{
+    display: inline-block;
+    font-size: 15px;
+    width: 44px;
+    height: 44px;
+    line-height: 46px;
+    text-align: center;
+    border: 2px solid #285da1;
+    background: #285da1;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 .area-footer .first-col .icons-social i:hover{
-    color: #3aa4de;
+    background: #0a2331;
 }
+
+
 
 .second-col .comp{
     margin-left: 30px;
