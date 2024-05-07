@@ -1,90 +1,192 @@
-
-header{
+header {
     width: 100%;
-    position:fixed ;
+    position: fixed;
     background: white;
     z-index: 99;
     top: 0;
 }
 
+/* nav{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
 
 
-.left-nav{
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+
+ul li .cat-submenu{
+    position: absolute;
+    top: calc(100% + 30px);
+    left: 0;
+    width: 200px;
+    padding: 17px 0 15px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px #08002a14;
+    border-radius: 4px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-out 0s;
+}
+
+ul ul{
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+} */
+
+/* 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  @media screen and (max-height: 556px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  } */
+
+
+.left-nav {
     display: flex;
     justify-content: center;
     cursor: pointer;
-
 }
 
-.left-nav .logo{
+.left-nav .logo {
     margin-top: 25px;
     cursor: pointer;
 }
 
-.left-nav .category{
+.left-nav .category {
     display: flex;
     justify-content: center;
-    align-items:baseline;
+    align-items: baseline;
     margin-left: 40px;
     margin-top: 30px;
     cursor: pointer;
 }
 
-.navbar .left-nav .category:hover{
-  color:blue
-}  
+.navbar .left-nav .category:hover {
+    color: blue
+}
 
-.left-nav .category i{
+.left-nav .category i {
     margin-right: 10px;
 }
-  
 
 
-.center-navbar{
+
+.center-navbar {
     display: flex;
     justify-content: center;
     align-self: center;
-    margin-top: 25px;  
+    margin-top: 25px;
 }
 
 
-.col-4 .center-navbar .tab ul{
+.col-4 .center-navbar .tab ul {
     display: flex;
     list-style: none;
     margin-top: 5px;
     margin-left: -29px;
 }
 
-.center-navbar .tab ul li{
+.center-navbar .tab ul li {
     display: flex;
     margin-left: 20px;
     color: black;
     cursor: pointer;
 }
 
-.center-navbar .tab ul li i{
+.center-navbar .tab ul li i {
     margin-left: 2px;
     margin-top: 5px;
 }
 
 
-.center-navbar .tab ul li i:hover{
+.center-navbar .tab ul li i:hover {
     color: blue;
 }
 
 
 
-.center-navbar .tab ul li a{
+.center-navbar .tab ul li a {
     text-decoration: none;
     color: black;
 }
 
-.center-navbar .tab ul li a:hover{
+.center-navbar .tab ul li a:hover {
     text-decoration: none;
     color: blue;
 }
 
-.right-nav{
+.right-nav {
     display: flex;
     margin-left: 60px;
     border: 0.5px solid gray;
@@ -93,7 +195,7 @@ header{
     margin-top: 20px;
 }
 
-.right-nav .search{
+.right-nav .search {
     background-color: rgba(225, 225, 225, 0.619);
     margin-left: px;
     margin-top: -10px;
@@ -102,7 +204,7 @@ header{
 
 
 
-.right-nav .search input{
+.right-nav .search input {
     width: 150px;
     height: 38px;
     position: absolute;
@@ -115,7 +217,7 @@ header{
 
 }
 
-.sear{
+.sear {
     border: none;
     position: relative;
     background: none;
@@ -125,27 +227,26 @@ header{
 }
 
 
-.basket{
+.basket {
     border: none;
     position: relative;
     background: none;
-     opacity: 0.5;
-     display: block;
-     margin-top: -25px;
-     margin-left: 110px;
+    opacity: 0.5;
+    display: block;
+    margin-top: -25px;
+    margin-left: 110px;
 
 }
 
-.free{
+.free {
     cursor: pointer;
     display: block;
     width: 140px;
-    margin-top: -33px; 
+    margin-top: -33px;
     margin-left: 260px;
 }
 
-.right-nav .free button{
-} 
+.right-nav .free button {}
 
 
 
@@ -154,55 +255,66 @@ header{
 
 /*left-section */
 
-#tutorial{
+#tutorial {
     width: 100%;
     height: 800px;
     background-color: rgba(128, 128, 128, 0.26);
     padding-top: 2.4rem;
-    
+
 }
 
-#tutorial .left-section .animation-hero img{
+#tutorial .left-section .animation-hero img {
     margin-left: 90px;
     margin-top: 150px;
-    animation-name:  rotate ;
-    animation-duration: 10s   ;
-    animation-delay: 0s ;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-delay: 0s;
     animation: rotate 10s linear infinite;
 
 }
 
-@keyframes rotate{
-    0%{transform: rotate(0deg);}
-    25%{transform: rotate(90deg);}
-    50%{transform: rotate(280deg);}
-    100%{transform: rotate(30deg);}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(280deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
 }
 
-#tutorial .left-section .aqua-circle img{
+#tutorial .left-section .aqua-circle img {
     margin-top: 200px;
 }
 
-#tutorial .left-section .access{
+#tutorial .left-section .access {
     margin-left: 80px;
-   margin-top: -330px;
+    margin-top: -330px;
 }
 
-#tutorial .left-section .online{
+#tutorial .left-section .online {
     margin-left: 80px;
 
 }
 
 
 
-#tutorial .left-section .online .onl-img span{
+#tutorial .left-section .online .onl-img span {
     position: relative;
     margin-top: 5px;
     font-size: 50px;
 }
 
 
-#tutorial .left-section .online .onl-img span img{
+#tutorial .left-section .online .onl-img span img {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -214,43 +326,50 @@ header{
     0% {
         transform: translateX(-50%) scaleX(0);
     }
+
     50% {
         transform: translateX(-50%) scaleX(1);
     }
+
     100% {
         transform: translateX(-50%) scaleX(0);
     }
 }
 
 
-#tutorial .left-section .online .view button{
+#tutorial .left-section .online .view button {
     width: 200px;
     height: 45px;
     margin-top: 19px;
 }
 
- 
-#tutorial .left-section .hero1-dot{
+
+#tutorial .left-section .hero1-dot {
     display: flex;
     justify-content: center;
     position: relative;
     margin-left: 90px;
 }
 
-#tutorial .left-section  .hero1-dot img{
+#tutorial .left-section .hero1-dot img {
     position: absolute;
     animation: fotos 10s linear infinite;
 }
 
 @keyframes fotos {
-    0%, 100% {
-        transform: translate(-50%, -50%) translateY(0); 
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%) translateY(0);
     }
+
     50% {
         transform: translate(-50%, -50%) translateY(-50px);
     }
-    75%, 75% {
-        transform: translate(-50%, -50%) translateY(50px); 
+
+    75%,
+    75% {
+        transform: translate(-50%, -50%) translateY(50px);
     }
 }
 
@@ -258,61 +377,62 @@ header{
 
 /* right-section */
 
-#tutorial .right-section{
+#tutorial .right-section {
     position: relative;
 }
 
 
 
-#tutorial .right-section  .circlefio{
- position: relative;
- display: flex;
- margin-left: 75%;
- margin-top: -420px;
+#tutorial .right-section .circlefio {
+    position: relative;
+    display: flex;
+    margin-left: 75%;
+    margin-top: -420px;
 }
 
-#tutorial .right-section  .circle-pink{
+#tutorial .right-section .circle-pink {
     position: relative;
     margin-left: 65%;
     margin-top: 40px;
 }
 
 
-#tutorial .right-section .dots{
+#tutorial .right-section .dots {
     position: relative;
     margin-left: 95%;
     margin-top: -300px;
 }
 
 
-#tutorial .right-section .shekil1 img{
+#tutorial .right-section .shekil1 img {
     position: absolute;
     margin-left: 50%;
     margin-top: -300px;
-    border-radius: 20px 3px 20px 3px; 
+    border-radius: 20px 3px 20px 3px;
 }
 
 
 
-#tutorial .right-section .sekil2 img{
+#tutorial .right-section .sekil2 img {
     position: absolute;
     margin-left: 81.7%;
     margin-top: -250px;
-    border-radius: 2px 23px 2px 23px; 
+    border-radius: 2px 23px 2px 23px;
 }
 
-#tutorial .right-section .spirit{
+#tutorial .right-section .spirit {
     width: 230px;
     height: 80px;
     position: absolute;
-    background-color: white; margin-left: 80%;
+    background-color: white;
+    margin-left: 80%;
     border-radius: 4px;
     animation: fotos 5s linear infinite;
 
 }
 
 
-#tutorial .right-section .spirit span{
+#tutorial .right-section .spirit span {
     display: flex;
     justify-content: center;
     margin-top: 6px;
@@ -321,13 +441,15 @@ header{
 
 @keyframes fotos {
     0% {
-        transform: translate(-50%, -50%) translateY(0); 
+        transform: translate(-50%, -50%) translateY(0);
     }
+
     50% {
         transform: translate(-50%, -50%) translateY(-50px);
     }
+
     100% {
-        transform: translate(-50%, -50%) translateY(50px); 
+        transform: translate(-50%, -50%) translateY(50px);
     }
 }
 
@@ -337,19 +459,19 @@ header{
 
 /* up/ popular */
 
-#explore .up-exp{
+#explore .up-exp {
     margin-left: 70px;
     margin-top: 100px;
 }
 
-.popular span{
+.popular span {
     position: relative;
     margin-top: 5px;
     font-size: 30px;
 }
 
 
-.popular span img{
+.popular span img {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -361,15 +483,17 @@ header{
     0% {
         transform: translateX(-50%) scaleX(0);
     }
+
     50% {
         transform: translateX(-50%) scaleX(1);
     }
+
     100% {
         transform: translateX(-50%) scaleX(0);
     }
 }
 
-.right-up{
+.right-up {
     display: flex;
     justify-content: end;
     margin-right: 75px;
@@ -377,47 +501,46 @@ header{
     cursor: pointer;
     color: black;
 }
-.right-up i{
+
+.right-up i {
     margin-left: 5px;
 }
 
-.right-up:hover{
+.right-up:hover {
     color: blue;
 }
 
-.left-courses .data-science .categorydata{
+.left-courses .data-science .categorydata {
     display: flex;
     width: 320px;
     height: 80px;
     margin-top: 40px;
     border: 0.5px solid gray;
     border-radius: 3px;
-    /* overflow: hidden; */
 
 }
 
-.left-courses .data-science .categorydata:hover{
+.left-courses .data-science .categorydata:hover {
     background-color: blue;
     color: white;
-    /* overflow: hidden; */
 
 }
 
-.data-science .data-sci svg{
+.data-science .data-sci svg {
     margin-top: -10x;
     margin-left: 25px;
 
 }
 
-.data-science .data-sci svg:hover{
+.data-science .data-sci svg:hover {
     filter: brightness(0) invert(1);
     /* overflow: hidden; */
 }
 
 
-.data-science .categorydata .data-sci .datas{
-  margin-left: 100px;
-  margin-top: -40px;
+.data-science .categorydata .data-sci .datas {
+    margin-left: 100px;
+    margin-top: -40px;
 }
 
 
@@ -425,29 +548,29 @@ header{
 
 
 /* banner */
-.left-banner{
+.left-banner {
     margin-left: -20px;
 }
 
 
-.left-banner .back{
+.left-banner .back {
     margin-top: 100px;
     position: relative;
 }
 
 
-.left-banner .back img{
+.left-banner .back img {
     border-radius: 7px;
 }
 
-.left-banner .banner1{
+.left-banner .banner1 {
     margin-top: -220px;
     margin-left: 220px;
     position: absolute;
 
 }
 
-.left-banner .write-free{
+.left-banner .write-free {
     background-color: rgba(218, 30, 61, 0.799);
     width: 50px;
     height: 25px;
@@ -460,23 +583,23 @@ header{
 
 }
 
-.left-banner .write-free span{
-   margin-left: 8px;
+.left-banner .write-free span {
+    margin-left: 8px;
 }
 
-.left-banner .germany{
+.left-banner .germany {
     margin-top: -180px;
     margin-left: 50px;
     position: absolute;
     cursor: pointer;
 }
 
-.left-banner .germany:hover{
- color: blue;
+.left-banner .germany:hover {
+    color: blue;
 }
 
 
-.button-banner1{
+.button-banner1 {
     margin-top: -100px;
     margin-left: 50px;
     position: absolute;
@@ -485,25 +608,25 @@ header{
 
 
 
-.right-banner .back{
+.right-banner .back {
     width: 95%;
     margin-top: 100px;
     position: relative;
 }
 
 
-.right-banner .back img{
+.right-banner .back img {
     border-radius: 7px;
 }
 
-.right-banner .banner1{
+.right-banner .banner1 {
     margin-top: -220px;
     margin-left: 230px;
     position: absolute;
 
 }
 
-.right-banner .write-free{
+.right-banner .write-free {
     background-color: rgba(218, 30, 61, 0.799);
     width: 50px;
     height: 25px;
@@ -515,23 +638,23 @@ header{
 
 }
 
-.right-banner .write-free span{
-   margin-left: 8px;
+.right-banner .write-free span {
+    margin-left: 8px;
 }
 
-.right-banner .germany{
+.right-banner .germany {
     margin-top: -180px;
     margin-left: 50px;
     position: absolute;
     cursor: pointer;
 }
 
-.right-banner .germany:hover{
+.right-banner .germany:hover {
     color: blue;
 }
 
 
-.button-banner1{
+.button-banner1 {
     margin-top: -100px;
     margin-left: 50px;
     position: absolute;
@@ -540,28 +663,28 @@ header{
 
 
 /* offers-section*/
- 
- #offers{
-    width: 100%;
- }
 
- .of-exp{
+#offers {
+    width: 100%;
+}
+
+.of-exp {
     margin-left: 100px;
     margin-top: 220px;
- }
+}
 
-.online span{
+.online span {
     /* margin-top: 50px; */
 }
 
-.online span{
+.online span {
     position: relative;
     margin-top: 5px;
     font-size: 30px;
 }
 
 
-.online span img{
+.online span img {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -573,58 +696,67 @@ header{
     0% {
         transform: translateX(-50%) scaleX(0);
     }
+
     50% {
         transform: translateX(-50%) scaleX(1);
     }
+
     100% {
         transform: translateX(-50%) scaleX(0);
     }
 }
 
-.help{
+.help {
     display: flex;
     margin-top: 20px;
     cursor: pointer;
     color: black;
 }
 
-.right-up:hover{
+.right-up:hover {
     color: blue;
 }
 
 
-.tabs{
+.tabs {
     margin-left: 60px;
     margin-top: 50px;
 }
 
-.tabs ul{
+.tabs ul {
     list-style: none;
     display: flex;
 }
 
 
-.tabs ul li{
+.tabs ul li {
     margin-left: 20px;
     cursor: pointer;
 }
 
 
-.tabs ul li a{
-   text-decoration: none;
-   color: black;
+.tabs ul li a {
+    text-decoration: none;
+    color: black;
 }
 
-.tabs .first a{
-    color:blue
+.tabs .first a {
+    color: blue
 }
 
 
-.tabs ul li a:hover{
+.tabs ul li a:hover {
     color: blue;
 }
 
-/* karts */ 
+/* 
+.active-tab{
+    color: blue;
+ } */
+
+
+
+/* karts */
 
 
 .course-card {
@@ -637,7 +769,7 @@ header{
     height: 500px;
 }
 
-.course-card .name-kurs{
+.course-card .name-kurs {
     width: 100px;
     height: 20px;
     background-color: fuchsia;
@@ -652,19 +784,19 @@ header{
 
 }
 
-.course-card .name-kurs span{
+.course-card .name-kurs span {
     display: flex;
     color: white;
     position: absolute;
     margin-top: -3px;
 }
 
-.course-card .kurs-foto{
-        width: 100%;
-        overflow: hidden;
+.course-card .kurs-foto {
+    width: 100%;
+    overflow: hidden;
 }
 
-.course-card .kurs-foto img{
+.course-card .kurs-foto img {
     /* padding: -8%; */
     margin-right: 80px;
     transition: all 0.5s;
@@ -672,12 +804,12 @@ header{
 
 }
 
-.course-card .kurs-foto img:hover{
+.course-card .kurs-foto img:hover {
     /* padding: 3%; */
     transform: scale(1.2);
 }
 
-.book-datas{
+.book-datas {
     margin-left: 20px;
     margin-top: 5px;
 }
@@ -687,8 +819,8 @@ header{
     margin-left: 9px;
 }
 
-.book-datas .stars{
-    background-color: rgb(255, 255, 55)   ;
+.book-datas .stars {
+    background-color: rgb(255, 255, 55);
     margin-left: 150px;
 }
 
@@ -703,25 +835,26 @@ header{
     cursor: pointer;
 }
 
-.course-info .strategy-text:hover{
-    color:blue
+.course-info .strategy-text:hover {
+    color: blue
 }
 
-.course-info img{
+.course-info img {
     width: 50px;
     border-radius: 50%;
     margin-left: 20px;
     margin-top: 10px;
 }
 
-.course-info .teacher-name{
+.course-info .teacher-name {
     margin-left: 90px;
     margin-top: -40px;
     cursor: pointer;
 
 }
-.course-info .teacher-name:hover{
-    color:blue
+
+.course-info .teacher-name:hover {
+    color: blue
 }
 
 
@@ -729,12 +862,11 @@ header{
     margin-top: 30px;
     text-align: left;
     margin-left: 20px;
-    /* display: flex;
-    align-items: center; */
-    
+
+
 }
 
-.current-price{
+.current-price {
     font-size: 20px;
     color: fuchsia;
 }
@@ -752,47 +884,49 @@ header{
     cursor: pointer;
 }
 
-.details:hover{
-    color:blue;
+.details:hover {
+    color: blue;
 }
 
-.offer-area{
+.offer-area {
     background-color: rgba(179, 174, 174, 0.089);
     height: 1450px;
 }
 
 
+
+
 /* cuurrrent events */
 
-#current-events{
+#current-events {
     width: 100%;
-    background-color: white ;
- }
+    background-color: white;
+}
 
- .of-exp{
+.of-exp {
     margin-left: 100px;
     margin-top: 200px;
- }
+}
 
-.current{
+.current {
     margin-top: 200px;
     display: flex;
-  justify-content: center;
+    justify-content: center;
 }
 
-.found{
+.found {
     display: flex;
-  justify-content: center;
+    justify-content: center;
 }
 
-.current span{
+.current span {
     position: relative;
     margin-top: 5px;
     font-size: 30px;
 }
 
 
-.current span img{
+.current span img {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -804,54 +938,56 @@ header{
     0% {
         transform: translateX(-50%) scaleX(0);
     }
+
     50% {
         transform: translateX(-50%) scaleX(1);
     }
+
     100% {
         transform: translateX(-50%) scaleX(0);
     }
 }
 
-.background{
+.background {
     margin-top: 20px;
     margin-left: 150px;
     position: relative;
 }
 
-.sectors .sector1{
+.sectors .sector1 {
     background-color: white;
     margin-top: -600px;
     position: absolute;
     width: 900px;
     height: 110px;
-    border-left: 2px solid blue;
+    /* border-left: 2px solid blue; */
     border-radius: 9px;
-    border-right:  0.5px solid gray;
-    border-bottom:  0.5px solid gray;
-    border-top:  0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    border-top: 0.5px solid gray;
     margin-left: 30px;
 }
 
-.times{
+.times {
     margin-top: 20px;
     margin-left: 30px;
 }
 
-.times-datas{
+.times-datas {
     margin-top: 5px;
     margin-left: 30px;
     font-size: 20px;
     cursor: pointer;
 }
 
-.times-datas:hover{
- color: blue;
+.times-datas:hover {
+    color: blue;
 }
 
 
 
 
- .more{
+.more {
     display: flex;
     margin-right: 20px;
     justify-content: end;
@@ -860,23 +996,23 @@ header{
     margin-top: -40px;
 }
 
-.more span{
+.more span {
     margin-right: 10px;
     margin-top: -20px;
 
 }
 
-.more i{
+.more i {
     margin-top: -15px;
 }
 
-.more:hover{
+.more:hover {
     color: blue;
-} 
+}
 
 
 
-.sectors .sector2{
+.sectors .sector2 {
     background-color: white;
     margin-top: -470px;
     position: absolute;
@@ -884,59 +1020,110 @@ header{
     height: 110px;
     border-left: 2px solid blue;
     border-radius: 9px;
-    border-right:  0.5px solid gray;
-    border-bottom:  0.5px solid gray;
-    border-top:  0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    border-top: 0.5px solid gray;
     margin-left: 30px;
 }
 
 
 
-.sectors .sector3{
+.sectors .sector3 {
     background-color: white;
     margin-top: -340px;
     position: absolute;
     width: 900px;
     height: 110px;
-    border-left: 2px solid blue;
+    /* border-left: 2px solid blue; */
     border-radius: 9px;
-    border-right:  0.5px solid gray;
-    border-bottom:  0.5px solid gray;
-    border-top:  0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    border-top: 0.5px solid gray;
     margin-left: 30px;
 }
 
 
 
-.sectors .sector4{
+.sectors .sector4 {
     background-color: white;
     margin-top: -210px;
     position: absolute;
     width: 900px;
     height: 110px;
-    border-left: 2px solid blue;
+    /* border-left: 2px solid blue; */
     border-radius: 9px;
-    border-right:  0.5px solid gray;
-    border-bottom:  0.5px solid gray;
-    border-top:  0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    border-top: 0.5px solid gray;
     margin-left: 30px;
 }
 
 
 
-.sectors .sector5{
+.sectors .sector5 {
     background-color: white;
     margin-top: -80px;
     position: absolute;
     width: 900px;
     height: 110px;
-    border-left: 2px solid blue;
+    /* border-left: 2px solid blue; */
     border-radius: 9px;
-    border-right:  0.5px solid gray;
-    border-bottom:  0.5px solid gray;
-    border-top:  0.5px solid gray;
+    border-right: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    border-top: 0.5px solid gray;
     margin-left: 30px;
 }
+
+.sector1 {
+    border-left: 2px solid transparent;
+    transition: border-left-color 0.3s ease;
+}
+
+.sector1:hover {
+    border-left-color: blue;
+}
+
+
+.sector3 {
+    border-left: 2px solid transparent;
+    transition: border-left-color 0.3s ease;
+}
+
+.sector3:hover {
+    border-left-color: blue;
+}
+
+
+.sector4 {
+    border-left: 2px solid transparent;
+    transition: border-left-color 0.3s ease;
+}
+
+.sector4:hover {
+    border-left-color: blue;
+}
+
+.sector5 {
+    border-left: 2px solid transparent;
+    transition: border-left-color 0.3s ease;
+}
+
+.sector5:hover {
+    border-left-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -947,31 +1134,31 @@ header{
 
 
 
-#simple-pricing{
+#simple-pricing {
     width: 100%;
-    background-color: white ;
- }
+    background-color: white;
+}
 
- .simple-up{
+.simple-up {
     margin-top: 200px;
     margin-left: 35.5%;
- }
+}
 
-.pricing-simple .simp{
-   margin-left: 100px;
-   font-size: 40px;
+.pricing-simple .simp {
+    margin-left: 100px;
+    font-size: 40px;
 
 }
 
 
-.pricing-simple span{
+.pricing-simple span {
     position: relative;
     margin-top: 5px;
     font-size: 40px;
 }
 
 
-.pricing-simple span img{
+.pricing-simple span img {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -983,9 +1170,11 @@ header{
     0% {
         transform: translateX(-50%) scaleX(0);
     }
+
     50% {
         transform: translateX(-50%) scaleX(1);
     }
+
     100% {
         transform: translateX(-50%) scaleX(0);
     }
@@ -993,21 +1182,17 @@ header{
 
 
 
-.simple-up .contract{
+.simple-up .contract {
     margin-left: 80px;
 }
 
-.simple-up .button-2{
+.simple-up .button-2 {
     margin-top: 40px;
-    margin-left: 50px;
-}
-
-.simple-up .button-2 button{
-    border: 0.5px solid gray;
+    margin-left: 55px;
 }
 
 
-.packets .paket-gold{
+.packets .paket-gold {
     width: 90%;
     height: 400px;
     background-color: #f3f4f8;
@@ -1016,51 +1201,52 @@ header{
     margin-top: 40px;
 }
 
-.paket-gold .gold{
-  font-size: 30px;
-  margin-left: 50px;
-}
-
-
-.paket-gold .perfect{
+.paket-gold .gold {
+    font-size: 30px;
     margin-left: 50px;
 }
 
-.paket-gold .pricsa{
-margin-left: 50px;
-}
 
-
-
-.paket-gold .pricsa .price{
-font-size: 50px;
-}
-
-.okeys{
+.paket-gold .perfect {
     margin-left: 50px;
 }
 
-.okeys ul{
+.paket-gold .pricsa {
+    margin-left: 50px;
+}
+
+
+
+.paket-gold .pricsa .price {
+    font-size: 50px;
+}
+
+.okeys {
+    margin-left: 50px;
+}
+
+.okeys ul {
     list-style: none;
 }
 
-.okeys ul li{
+.okeys ul li {
     margin-top: 5px;
 }
 
-.okeys ul li i{
+.okeys ul li i {
     color: greenyellow;
 }
-.okeys ul li:hover{
+
+.okeys ul li:hover {
     color: green;
 }
 
-.okeys ul li i:hover{
+.okeys ul li i:hover {
     background-color: rgb(26, 221, 26);
 }
 
 
-.started{
+.started {
     margin-left: 50px;
     margin-top: 30px;
 
@@ -1072,69 +1258,75 @@ font-size: 50px;
 
 
 
-.packets .paket-diamond{
+.packets .paket-diamond {
     width: 90%;
     height: 430px;
-    background-color:  #f3f4f8;;
+    background-color: #f3f4f8;
+    ;
     border-radius: 5px;
     margin-left: 100px;
     margin-top: 40px;
 }
 
-.paket-diamond .gold{
-  font-size: 30px;
-  margin-left: 50px;
-}
-
-
-.paket-diamond .perfect{
+.paket-diamond .gold {
+    font-size: 30px;
     margin-left: 50px;
 }
 
-.paket-diamond .pricsa{
-margin-left: 50px;
-}
 
-
-
-.paket-diamond .pricsa .price{
-font-size: 50px;
-}
-
-.okeys{
+.paket-diamond .perfect {
     margin-left: 50px;
 }
 
-.okeys ul{
+.paket-diamond .pricsa {
+    margin-left: 50px;
+}
+
+
+
+.paket-diamond .pricsa .price {
+    font-size: 50px;
+}
+
+.okeys {
+    margin-left: 50px;
+}
+
+.okeys ul {
     list-style: none;
 }
 
-.okeys ul li{
+.okeys ul li {
     margin-top: 5px;
 }
 
-.okeys ul li i{
+.okeys ul li i {
     color: greenyellow;
 }
-.okeys ul li:hover{
+
+.okeys ul li:hover {
     color: green;
 }
 
-.okeys ul li i:hover{
+.okeys ul li i:hover {
     background-color: rgb(26, 221, 26);
 }
 
 
-.buttoned{
+.buttoned {
     margin-left: 50px;
     margin-top: 30px;
     width: 120px;
     height: 40px;
     border-radius: 5px;
-
 }
 
-.buttoned:hover{
+.buttoned span {
+    margin-left: 7px;
+}
+
+
+.buttoned:hover {
     color: rgb(202, 202, 215);
     background-color: blue;
 }
@@ -1147,41 +1339,47 @@ font-size: 50px;
 
 /* up-footet */
 
-#up-footer .guiding-pankart{
+#up-footer .guiding-pankart {
     margin-top: 200px;
-       margin-left: 120px;
-        width: 1000px;
-        height: 150px;
-        background: linear-gradient(to right, #240ab6 50%, #f77a1a 50%);
-        border-radius: 20px; 
-        padding: 20px;
-        color: white;
-        font-size: 30px;
-        position: relative;
-        z-index: 2;
+    margin-left: 120px;
+    width: 1000px;
+    height: 150px;
+    background: linear-gradient(to right, #240ab6 50%, #f77a1a 50%);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
 }
 
-#up-footer .guiding-pankart .get{
+#up-footer .guiding-pankart .get {
     width: 180px;
     height: 60px;
-   margin-left: 700px;
-   margin-top: -55px;
+    margin-left: 700px;
+    margin-top: -55px;
+    color: black;
     background-color: white;
     text-align: center;
     border-radius: 5px;
 }
 
+#up-footer .guiding-pankart .get .gets {
+    border: none;
+}
+
+
 
 /* footer */
 
-.col-3{
+.col-3 {
     margin-top: 180px;
     margin-left: 40px;
     color: white;
 
 }
 
-.area-footer{
+.area-footer {
     margin-top: -80px;
     width: 100%;
     background-color: #100741;
@@ -1190,18 +1388,18 @@ font-size: 50px;
 }
 
 
-.area-footer .first-col .educal-icon{
-   cursor: pointer;
+.area-footer .first-col .educal-icon {
+    cursor: pointer;
 }
 
-.area-footer .first-col .texts{
+.area-footer .first-col .texts {
     margin-top: 20px;
     color: white;
     font-size: 16px;
 }
 
 
-.area-footer .first-col .icons-social i{
+.area-footer .first-col .icons-social i {
     display: inline-block;
     font-size: 15px;
     width: 44px;
@@ -1216,86 +1414,87 @@ font-size: 50px;
     cursor: pointer;
 }
 
-.area-footer .first-col .icons-social i:hover{
+.area-footer .first-col .icons-social i:hover {
     background: #0a2331;
 }
 
 
 
-.second-col .comp{
+
+.second-col .comp {
     margin-left: 30px;
     font-size: 20px;
 }
 
-.second-col .ul-datas ul li{
+.second-col .ul-datas ul li {
     list-style: none;
     cursor: pointer;
     margin-top: 5px;
 }
 
-.second-col .ul-datas ul li:hover{
-    color:rgb(104, 127, 148)
+.second-col .ul-datas ul li:hover {
+    color: rgb(104, 127, 148)
 }
 
 
 
 
-.thirts-col .platform{
+.thirts-col .platform {
     margin-left: 1px;
     font-size: 20px;
 }
 
-.thirts-col .ul-datas2 ul li{
+.thirts-col .ul-datas2 ul li {
     margin-left: -29px;
     list-style: none;
     cursor: pointer;
     margin-top: 5px;
 }
 
-.thirts-col .ul-datas2 ul li:hover{
-    color:rgb(104, 127, 148)
+.thirts-col .ul-datas2 ul li:hover {
+    color: rgb(104, 127, 148)
 }
 
 
 
 
-.last-col .subsc{
+.last-col .subsc {
     margin-left: 1px;
     font-size: 20px;
 }
 
-.last-col{
+.last-col {
     margin-left: 850px;
     margin-top: -430px;
 }
 
-.last-col .input-group{
+.last-col .input-group {
     width: 200px;
 }
 
-.last-col .input-group span{
-cursor: pointer;
+.last-col .input-group span {
+    cursor: pointer;
 }
 
 
-.last-col .input-group span:hover{
- color: blue;
+.last-col .input-group span:hover {
+    color: blue;
 }
 
 
 
 
-.last-col .inbox{
+.last-col .inbox {
     margin-top: 10px;
     width: 200px;
 }
 
-hr{
-    color:gray;
+hr {
+    color: gray;
 }
 
-.finish{
+.finish {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     color: antiquewhite;
 }
