@@ -49,6 +49,20 @@
 
 
 
+    // // JavaScript ile submenuyu kontrol et
+    // document.addEventListener("DOMContentLoaded", function() {
+    //     var homeItem = document.querySelector(".home"); // 
+
+    //     homeItem.addEventListener("mouseover", function() {
+    //         var dropdownMenu = homeItem.querySelector(".drop_down_menu"); // 
+    //         dropdownMenu.style.display = "block"; // 
+    //     });
+
+    //     homeItem.addEventListener("mouseout", function() {
+    //         var dropdownMenu = homeItem.querySelector(".drop_down_menu"); // 
+    //         dropdownMenu.style.display = "none"; // 
+    //     });
+    // });
 
 
 
